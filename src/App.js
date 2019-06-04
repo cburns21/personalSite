@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+// import email from '../email.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        <h1>
+          Caroline Burns
+        </h1>
+      </div>
+      <div className="contact">
+        <div className="email">
+          <img src='../email.png'></img>
+          <p>321cburns@gmail.com</p>
+        </div>
+        <div className="linkedin">
+          <img src='linkedin.png'></img>
+          <p>carolinehburns</p>
+        </div>
+        <div className="github">
+          <img src='github.png'></img>
+          <p>cburns21</p>
+        </div>  
+      </div>
     </div>
   );
 }
