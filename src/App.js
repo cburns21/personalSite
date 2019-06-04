@@ -5,24 +5,25 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
+      <div className="header">
         <h1>
           Caroline Burns
         </h1>
       </div>
       <div className="contact">
-        <div className="email">
+        <div className="row">
           <img src='../email.png'></img>
-          <p>321cburns@gmail.com</p>
+          <a href='321cburns@gmail.com'>321cburns@gmail.com</a>
         </div>
-        <div className="linkedin">
+        <div className="row">
           <img src='linkedin.png'></img>
-          <p>carolinehburns</p>
+          <a href='//www.linkedin.com/in/carolinehburns/'>carolinehburns</a>
         </div>
-        <div className="github">
+        <div className="row">
           <img src='github.png'></img>
-          <p>cburns21</p>
-        </div>  
+          <a href='https://github.com/cburns21'>cburns21</a>
+        </div> 
+     
       </div>
     </div>
   );
